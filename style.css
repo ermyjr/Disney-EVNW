@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: url(./assets/cursor_default.png), default;
+}
+
+
+/*cabecalho*/
+header {
+    font-family: 'Lily Script One';
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+ 
+    
+}
+
+nav{
+
+    background-color: #1e1e1e;
+    padding: 25px 0;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    padding: 0 150px;
+    cursor: url(./assets/cursor_pointer.png), pointer;
+    
+}
+
+
+#disney{
+    padding: 0;
+    width: 100%;
+}
+
+
+/*corpo*/
+main{
+    margin: 64px 138px 157px 0;
+    text-align: center;
+
+    
+}
+.cartaz{
+ padding: 55px 0 55px 0;
+}
+
+.cartaz .movies{
+    height: 513px;
+    width: 353px;
+    margin: 0 55px 115px 55px;
+    cursor: url(./assets/cursor_pointer.png), pointer;
+}
+
+
+/*rodapé*/
+footer {
+    width: 100%;
+    height: 125px;
+    font-style: italic;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.link {
+    text-align: center;
+}
+
+.link article {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.link p {
+    display: block;
+    margin: 0;
+}
+
+.link a {
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 10px;
+}
+
+.linkImage{
+    height: 78px;
+}
