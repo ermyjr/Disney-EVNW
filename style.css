@@ -4,13 +4,14 @@
     box-sizing: border-box;
     width: 100%;
     cursor: url(./assets/cursor_default.png), default;
+    font-weight: 400px;
 }
 
 
 /*cabecalho*/
 header {
     font-family: 'Lily Script One';
-    font-size: 25px;
+    font-size: 30px;
     color: #FFFFFF;
     text-align: center;
  
@@ -59,37 +60,46 @@ main{
 
 /*rodapé*/
 footer {
-    display: inline;
+    display: inline-block;
     width: 100%;
     color: #FFFFFF;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
 }
 
-.link { 
-    text-align: center;
+
+footer:hover{
     cursor: url(./assets/cursor_default.png),default;
 }
 
 
 .link p {
+
+    margin: 0;
     display: inline-block;
     text-align: start;
-    
+    vertical-align: middle; 
     font-style: italic;
-    font-size: 20px;
-    width: 74%;
-    margin: 0;
+    font-size: 25px;
+    width: 45%;
+    padding: 10px 0;
 }
 
 .link a {
+ 
     display: inline-block;
+    justify-content: center;
+    vertical-align: middle; 
     width: 5%;
+    padding: 10px 0;
   
    
 }
 
 .linkImage{
     display:inline-block;
-    height: 50px;
+    height: 78px;
     cursor: url(./assets/cursor_pointer.png), pointer;
 }
 
