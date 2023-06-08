@@ -59,33 +59,40 @@ main{
 
 /*rodapé*/
 footer {
+    display: inline;
     width: 100%;
-    height: 125px;
-    font-style: italic;
-    font-size: 20px;
     color: #FFFFFF;
 }
 
-.link {
+.link { 
     text-align: center;
+    cursor: url(./assets/cursor_default.png),default;
 }
 
-.link article {
-    display: inline-block;
-    vertical-align: middle;
-}
 
 .link p {
-    display: block;
+    display: inline-block;
+    text-align: start;
+    
+    font-style: italic;
+    font-size: 20px;
+    width: 74%;
     margin: 0;
 }
 
 .link a {
     display: inline-block;
-    vertical-align:middle;
-    margin-left: 10px;
+    width: 5%;
+  
+   
 }
 
 .linkImage{
-    height: 78px;
+    display:inline-block;
+    height: 50px;
+    cursor: url(./assets/cursor_pointer.png), pointer;
+}
+
+.linkImage:hover{
+    cursor: url(./assets/cursor_pointer.png), pointer;
 }
