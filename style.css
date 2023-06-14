@@ -32,19 +32,23 @@ li{
 }
 
 
+
+
+
+/*corpo*/
+
+main{
+    margin:0;
+    text-align: center;
+
+    
+}
+
 #disney{
     padding: 0;
     width: 100%;
 }
 
-
-/*corpo*/
-main{
-    margin: 64px 138px 157px 0;
-    text-align: center;
-
-    
-}
 .cartaz{
  padding: 55px 0 55px 0;
 }
